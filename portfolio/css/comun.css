@@ -53,8 +53,9 @@ header {
     justify-content: space-between; }
     /*IDIOMAS*/
   header .idiomas {
-    margin-right: 15px;
-    width: 11%;
+    margin-right: 20px;
+	margin-top:5px;
+    width: 12%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,37 +63,46 @@ header {
 
     header .idiomas .idioma {
       width: 20%;
-      height: 0px;
-      }
-      header .idiomas .idioma span {
-        margin-left:-16px;
+	    display: flex;
+	  flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center; 
+	}
+	  /*Idioma seleccionado  -- */
+	     header .idiomas .select {
+			opacity:.5;
+			margin-top: 5px; 
+		 }
+			header .idiomas .select img {
+				width: 100%;
+				cursor: context-menu;
+			}
+		    header .idiomas .select span{
+			  display: none;
+		    }
+
+	  /*-------------------------*/
+	  /* Resto de idiomas*/
+	   header .idiomas .idioma span {
         color: #fff;
         opacity: 0;
         display: inline-block;
         margin-top: 20px;
         transition: all .5s ease-in-out;
-
-
-}
-      header .idiomas .idioma:hover span {
+	  }
+      header .idiomas .noselect:hover span {
         opacity: 1;
-
-        transform: translate(0px, -10px); }
-      header .idiomas .idioma img {
+		transform: translate(0px, -10px); 
+}
+      header .idiomas .noselect img {
         width: 100%;
         cursor: pointer;
         opacity: .8;
         transition: all 50ms ease-in-out;}
 
-        header .idiomas .idioma img:hover {
+        header .idiomas .noselect img:hover {
           transform: translate(0px, 2px); }
-         header .idiomas .select img {
-        width: 100%;
-        cursor: pointer;
-         background-color: rgba(0,0,0,0, .2);
-        transition: all 50ms ease-in-out;}
-        header .idiomas .idioma img:hover {
-          transform: translate(0px, 2px); }
+		/*-------------------*/
 
 /*MENU*/
     header .menu {
