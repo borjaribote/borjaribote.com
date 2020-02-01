@@ -1,0 +1,100 @@
+@media screen and (max-width:1200px){
+   
+   .textofin img{
+    width: 280px;
+    }
+   .textofin .img1{
+    top:13vh;
+    left:47vw;  
+    }
+
+.textofin .img2{
+    bottom: 20vh;
+    right:20vw;
+}
+}
+@media screen and (max-width:900px){
+
+    .textofin img{
+    width: 250px;
+    }
+    .textofin .img1{
+    top:15vh;
+    left:47vw;  
+    }
+
+.textofin .img2{
+    bottom: 30vh;
+    right:15vw;
+}
+}
+      
+}
+@media screen and (max-width: 800px) {
+	.parallax3 h2{
+	font-size: 30px;
+}   
+  
+    .parallax-fin{
+     background-position:80%;
+    }
+        .textofin img{
+    width: 230px;
+    }
+.textofin .img1{
+    top:15vh;
+    left:35vw;  
+    }
+.textofin .img2{
+    bottom: 30vh;
+    right:20vw;
+}       
+}
+@media screen and (max-width: 700px) {
+ 
+.textofin .img1{
+    top:15vh;
+    left:30vw;  
+    }
+}
+@media screen and (max-width: 600px) {
+    .parallax-fin{
+        background-position:70% ;
+    }
+   .textofin img{
+    width: 220px;
+    }
+
+.textofin .img1{
+    top:15vh;
+    left:28vw;  
+    }
+}
+@media screen and (max-width: 450px) {
+       .textofin img{
+    width: 150px;
+    }
+    .parallax-fin{
+        height:100vh;
+        background-color: black;
+        background-repeat:no-repeat;
+        background-position:75% center;
+        background-size:100vh;
+    }
+
+
+.textofin .img1{
+    top:25vh;
+    left:30vw;  
+    }
+}
+@media screen and (max-width: 375px) {
+     .parallax-fin{
+        background-position:70% center;
+    }
+    
+    .textofin .img1{
+    top:25vh;
+    left:25vw;  
+    }
+}
