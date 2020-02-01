@@ -1,5 +1,14 @@
 @media screen and (max-width:1200px){
-   
+    .parallax3{
+        height: 100vh;
+    }
+    .parallax3 video{
+        width: 100%;
+        height:100vh;
+    }
+     .parallax3 h2 em {
+	font-size: 45px;
+    } 
    .textofin img{
     width: 280px;
     }
@@ -14,7 +23,16 @@
 }
 }
 @media screen and (max-width:900px){
-
+     .parallax3{
+        height: 70vh;
+    }
+    .parallax3 video{
+        width: 130%;
+        height:70vh;
+    }
+     .parallax3 h2 em {
+	font-size: 40px;
+    } 
     .textofin img{
     width: 250px;
     }
@@ -31,9 +49,7 @@
       
 }
 @media screen and (max-width: 800px) {
-	.parallax3 h2{
-	font-size: 30px;
-}   
+
   
     .parallax-fin{
      background-position:80%;
@@ -58,6 +74,17 @@
     }
 }
 @media screen and (max-width: 600px) {
+     .parallax3{
+        height: 60vh;
+    }
+    .parallax3 video{
+        width: 130%;
+        height:60vh;
+    }
+    .parallax3 h2 em {
+	font-size: 35px;
+} 
+
     .parallax-fin{
         background-position:70% ;
     }
@@ -71,6 +98,16 @@
     }
 }
 @media screen and (max-width: 450px) {
+    .parallax3{
+        height: 60vh;
+    }
+        .parallax3 video{
+        width: 130%;
+        height:60vh;
+    }
+    .parallax3 h2 em {
+	font-size: 25px;
+} 
        .textofin img{
     width: 150px;
     }
@@ -89,6 +126,7 @@
     }
 }
 @media screen and (max-width: 375px) {
+
      .parallax-fin{
         background-position:70% center;
     }
