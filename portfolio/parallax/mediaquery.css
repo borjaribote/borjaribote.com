@@ -27,22 +27,24 @@
 @media screen and (max-width:1050px) {
     .parallax-fin{
         height:100vh;
+                         background-image: url('imagenes/yos.jpg');
+
         background-color: black;
         background-repeat:no-repeat;
-        background-position:75% center;
-        background-size:100vh;
+        background-position:100% center;
+        /*background-size:100vh;*/
     }
     .textofin img{
-        width: 255px;
+        display:none;
     }
-    .textofin .img1{
+/*    .textofin .img1{
         top:30vh;
         left:40vw;  
     }
     .textofin .img2{
         bottom: 30vh;
         right:20vw;
-    }       
+    }    */ 
 }
 
 @media screen and (max-width:900px){
@@ -54,31 +56,15 @@
         height:70vh;
     }
     .parallax3 h2 em {
-        font-size: 40px;
+        font-size: 35px;
     } 
-    .textofin img{
-        width: 240px;
-    }
-    .textofin .img1{
-        top:20vh;
-        left:37vw;  
-    }
-
-    .textofin .img2{
-        bottom: 30vh;
-        right:15vw;
-    }
+ 
 }
 
-@media screen and (max-width: 700px) {
-    .textofin img{
-        width: 190px;
-    }
-
-    .textofin .img1{
-        top:25vh;
-        left:43vw;  
-    }
+@media screen and (max-width: 800px) {
+  .parallax3 h2 em {
+        font-size: 30px;
+    } 
 }
 @media screen and (max-width: 600px) {
     .parallax3{
@@ -88,11 +74,8 @@
         width: 100%;
         height:70vh;
     }
-    .parallax3 h2 em {
-        font-size: 35px;
-    } 
 
-    .parallax-fin{
+   /* .parallax-fin{
         background-position:70% ;
     }
     .textofin img{
@@ -102,12 +85,20 @@
     .textofin .img1{
         top:25vh;
         left:35vw;  
-    }
+    }*/
 }@media screen and (max-width: 530px) {
-        .textofin .img1{
+     .parallax-fin{
+        height:45vh;
+        background-color: black;
+        background-repeat:no-repeat;
+        background-position:70% bottom;
+        background-size:70vh;
+    }
+
+   /*     .textofin .img1{
         top:25vh;
         left:35vw;  
-    }
+    }*/
 }
 @media screen and (max-width: 450px) {
     .texto{
@@ -127,7 +118,7 @@
     .textofin img{
         width: 180px;
     }
-    .parallax-fin{
+/*    .parallax-fin{
         height:100vh;
         background-color: black;
         background-repeat:no-repeat;
@@ -139,7 +130,7 @@
     .textofin .img1{
         top:25vh;
         left:25vw;  
-    }
+    }*/
 }
 
 @media screen and (max-width: 375px)and (orientation: portrait) {
@@ -151,9 +142,16 @@
         height:40vh;
     }
     .parallax3 h2 em {
-        font-size: 25px;
+        font-size: 20px;
     } 
-    .parallax-fin{
+     .parallax-fin{
+        height:45vh;
+        background-color: black;
+        background-repeat:no-repeat;
+        background-position:70% bottom;
+        background-size:70vh;
+    }
+  /*  .parallax-fin{
         background-position:70% center;
     }
     .textofin img{
@@ -162,9 +160,30 @@
     .textofin .img1{
         top:25vh;
         left:30vw;  
-    }
+    }*/
 }
 
+@media screen and (max-width: 250px)and (orientation: portrait) {
+    .parallax2 h2{
+         font-size: 30px;
+    }
+     h2{
+        font-size: 30px;
+    }
+    .texto{
+        font-size: 13px;
+    }
+    .parallax3{
+        height: 50vh;
+    }
+    .parallax3 video{
+        width: 100%;
+        height:50vh;
+    }
+    .parallax3 h2 em {
+        font-size: 15px;
+    } 
+}
 /*
 @media screen and (orientation: portrait) and (max-width: 800px)   
  {
@@ -184,15 +203,21 @@
     }       
 }*/
 /* LANDSCAPE */
+@media screen and (max-width:900px) and (orientation: landscape){
+         .parallax-fin{
+       background-position:70% 38%;
+    }
+
+}
 @media only screen  
     and (orientation: landscape) and (max-width: 1100px){
-          .parallax-fin{
+  /*        .parallax-fin{
         background-position:70%;
     }  
         .textofin .img1{
         top:25vh;
         left:35vw;  
-    }
+    }*/
 }
 @media only screen  
 and (orientation: landscape) and (max-width: 500px) {
